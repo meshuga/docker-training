@@ -35,5 +35,5 @@ docker image build -t hello .
 ```
 10. Run second image
 ```
-docker run firstimage figlet hello
+docker run hello figlet hello
 ```
